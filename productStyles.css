@@ -1,0 +1,56 @@
+.container{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+
+article {
+	background-color: none;
+	width: 30%;
+	justify-content: space-between;
+	border: solid 1px lightblue;
+	margin: 7px;
+}
+
+h2 {
+	border: dotted 1px lightgray;
+	text-align: center;
+	margin-top: 0px;
+
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+
+
+}
+
+.product-description{
+	text-align: justify;
+	margin: 12px;
+
+}
+
+.availability {
+	background-color: gray;
+	color: yellow;
+	height: 25px;
+
+}
+
+.specs p {
+	font-weight: bold;
+
+}
+
+header ~ p {
+	font-weight: bold;
+}
+
+
+
+
+
